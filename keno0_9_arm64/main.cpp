@@ -1,0 +1,39 @@
+#include <iostream>
+#include <iomanip>
+#include <math.h>
+using namespace std;
+
+int main(int argc,char** argv)
+{
+    long double r_one;
+    long double z_one;
+    long double r_two;
+    long double z_two;
+
+
+    long double rz_one;
+
+    cout<<"eg 2785 20708050  29798959 15\n";
+    r_one=stold(argv[1]);
+    z_one=stold(argv[2]);
+    r_two=r_one;
+    z_two=stold(argv[3]);
+    int preci;
+    preci=stoi(argv[4]);
+
+    rz_one=r_one+z_one;
+    cout<<std::setprecision(preci)<<r_one << " + " <<std::setprecision(preci)<< z_one <<  " ::== " <<std::setprecision(preci)<< rz_one;
+    cout<<"\n";
+    long double zr_two;
+    zr_two=r_two+z_two;
+
+    cout<<std::setprecision(preci)<<r_two  << " + " <<std::setprecision(preci)<< z_two << " ::== " <<std::setprecision(preci)<< zr_two;
+    cout<<"\n";
+    long double rzr;
+    rzr=zr_two-rz_one;
+
+    cout<<std::setprecision(preci)<<zr_two << " - " <<std::setprecision(preci)<< rz_one << " ::== " <<std::setprecision(preci)<< rzr ;
+    cout<<"\n";
+
+    return 0;
+}

@@ -1,0 +1,36 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    long double r_one;
+    long double z_one;
+    long double r_two;
+    long double z_two;
+    
+    
+    long double rz_one;
+    
+    cout<<"eg 2785 20708050 2785 29798959\n";
+    r_one=stold(argv[1]);
+    z_one=stold(argv[2]);
+    r_two=r_one;
+    z_t
+    
+    rz_one=r_one+z_one;
+    cout<<r_one << " + " << z_one <<  " ::== " << rz_one;
+    cout<<"\n";
+    long double zr_two;
+    zr_two=r_two+z_two;
+    
+    cout<<r_two  << " + " << z_two << " ::== " << zr_two;
+    cout<<"\n";
+    long double rzr;
+    rzr=zr_two-rz_one;
+    
+    cout<<zr_two << " - " << rz_one << " ::== " << rzr ;
+    cout<<"\n";
+    
+    return 0;
+}
