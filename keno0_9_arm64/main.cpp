@@ -35,5 +35,10 @@ int main(int argc,char** argv)
     cout<<std::setprecision(preci)<<zr_two << " - " <<std::setprecision(preci)<< rz_one << " ::== " <<std::setprecision(preci)<< rzr ;
     cout<<"\n";
 
+    long double xzx;
+    xzx=z_two-z_one;
+    cout<<std::setprecision(preci)<<z_two << " - " <<std::setprecision(preci)<< z_one << " ::== " <<std::setprecision(preci)<< xzx ;
+    cout<<"\n";
+
     return 0;
 }
