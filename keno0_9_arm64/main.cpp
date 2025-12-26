@@ -56,5 +56,10 @@ int main(int argc,char** argv)
     cout<<std::setprecision(preci)<<znzw << " - " <<std::setprecision(preci)<< zozw << " ::== " <<std::setprecision(preci)<< ipol ;
     cout<<"\n";
 
+    long double xipol;
+    xipol=(long double)ipol/(long double)r_one;
+    cout<<std::setprecision(preci)<<ipol << " / " <<std::setprecision(preci)<< r_one << " ::== " <<std::setprecision(preci)<< xipol ;
+    cout<<"\n";
+
     return 0;
 }
