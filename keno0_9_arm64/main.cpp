@@ -40,5 +40,21 @@ int main(int argc,char** argv)
     cout<<std::setprecision(preci)<<z_two << " - " <<std::setprecision(preci)<< z_one << " ::== " <<std::setprecision(preci)<< xzx ;
     cout<<"\n";
 
+    
+    long double zozw;
+    zozw=z_one+z_two;
+    cout<<std::setprecision(preci)<<z_one << " + " <<std::setprecision(preci)<< z_two << " ::== " <<std::setprecision(preci)<< zozw ;
+    cout<<"\n";
+
+    long double znzw;
+    znzw=rz_one+zr_two;
+    cout<<std::setprecision(preci)<<rz_one << " + " <<std::setprecision(preci)<< zr_two << " ::== " <<std::setprecision(preci)<< znzw ;
+    cout<<"\n";
+
+    long double ipol;
+    ipol=znzw-zozw;
+    cout<<std::setprecision(preci)<<znzw << " - " <<std::setprecision(preci)<< zozw << " ::== " <<std::setprecision(preci)<< ipol ;
+    cout<<"\n";
+
     return 0;
 }
