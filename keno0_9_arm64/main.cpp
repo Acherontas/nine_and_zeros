@@ -40,7 +40,6 @@ int main(int argc,char** argv)
     cout<<std::setprecision(preci)<<z_two << " - " <<std::setprecision(preci)<< z_one << " ::== " <<std::setprecision(preci)<< xzx ;
     cout<<"\n";
 
-    
     long double zozw;
     zozw=z_one+z_two;
     cout<<std::setprecision(preci)<<z_one << " + " <<std::setprecision(preci)<< z_two << " ::== " <<std::setprecision(preci)<< zozw ;
